@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pytest = "==4.4.2"
+mock = "*"
+pytest-testdox = "*"
+toml = "*"
+flask = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
